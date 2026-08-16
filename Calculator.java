@@ -2,6 +2,7 @@
 public class Calculator {
 	
 	   public int add(int a, int b) {
+		   System.out.println("Adding numbers...");
 		   return a+b;
 	   }
 	   public int subtract(int a, int b) {
@@ -17,7 +18,7 @@ public class Calculator {
 		Calculator calc = new Calculator();
 		System.out.println("Sum: " + calc.add(5, 3));
 		System.out.println("Diff: " + calc.subtract(5, 3));
-		System.out.println("Diff: " + calc.multiply(5, 3));
+		System.out.println("Multiply: " + calc.multiply(5, 3));
 
 	}
 
