@@ -2,6 +2,7 @@
 public class Calculator {
 	
 	   public int add(int a, int b) {
+		   System.out.println("adding in divide feature branch");
 		   return a+b;
 	   }
 	   public int subtract(int a, int b) {
@@ -9,6 +10,9 @@ public class Calculator {
 	   }
 	   public int multiply(int a, int b) {
 		   return a*b;
+	   }
+	   public int divide(int a, int b) {
+		   return a/b;
 	   }
 
 
@@ -18,6 +22,7 @@ public class Calculator {
 		System.out.println("Sum: " + calc.add(5, 3));
 		System.out.println("Diff: " + calc.subtract(5, 3));
 		System.out.println("Diff: " + calc.multiply(5, 3));
+		System.out.println("Divide: " + calc.divide(4, 2));
 
 	}
 
