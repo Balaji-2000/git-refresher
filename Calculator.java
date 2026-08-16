@@ -21,7 +21,7 @@ public class Calculator {
 		Calculator calc = new Calculator();
 		System.out.println("Sum: " + calc.add(5, 3));
 		System.out.println("Diff: " + calc.subtract(5, 3));
-		System.out.println("Multiply: " + calc.multiply(5, 3));
+		System.out.println("Multiplyy: " + calc.multiply(5, 3));
 		System.out.println("Divide: " + calc.divide(4, 2));
 
 	}
