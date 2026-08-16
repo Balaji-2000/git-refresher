@@ -14,6 +14,9 @@ public class Calculator {
 	   public int divide(int a, int b) {
 		   return a/b;
 	   }
+	   public int modulus(int a, int b) {
+		   return a%b;
+	   }
 
 
 	public static void main(String[] args) {
@@ -23,6 +26,7 @@ public class Calculator {
 		System.out.println("Diff: " + calc.subtract(5, 3));
 		System.out.println("Multiplyy: " + calc.multiply(5, 3));
 		System.out.println("Divide: " + calc.divide(4, 2));
+		System.out.println("Modulus: " + calc.modulus(5, 2));
 
 	}
 
