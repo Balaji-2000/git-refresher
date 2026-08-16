@@ -7,6 +7,9 @@ public class Calculator {
 	   public int subtract(int a, int b) {
 		   return a-b;
 	   }
+	   public int multiply(int a, int b) {
+		   return a*b;
+	   }
 
 
 	public static void main(String[] args) {
@@ -14,6 +17,7 @@ public class Calculator {
 		Calculator calc = new Calculator();
 		System.out.println("Sum: " + calc.add(5, 3));
 		System.out.println("Diff: " + calc.subtract(5, 3));
+		System.out.println("Diff: " + calc.multiply(5, 3));
 
 	}
 
