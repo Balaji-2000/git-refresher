@@ -35,6 +35,8 @@ public class Calculator {
 		System.out.println("addind to check stash command");		
 		
 
+		System.out.println("add to resolve merge conflict ");
+
 	}
 
 }
