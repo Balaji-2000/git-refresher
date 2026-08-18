@@ -32,7 +32,7 @@ public class Calculator {
 		System.out.println("Modulus: " + calc.modulus(5, 2));
         System.out.println("Power: " + calc.power(5, 2));		
 		
-		System.out.println("addind to check git pull");		
+		System.out.println("addind to check stash command");		
 		
 
 	}
