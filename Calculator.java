@@ -32,7 +32,7 @@ public class Calculator {
 		System.out.println("Modulus: " + calc.modulus(5, 2));
         System.out.println("Power: " + calc.power(5, 2));		
 
-		System.out.println("add to resolve merge conflict ");
+		System.out.println("add to create merge conflict");
 
 	}
 
